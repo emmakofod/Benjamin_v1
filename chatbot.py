@@ -4,8 +4,8 @@ import tensorflow as tf
 import pickle
 
 # --- Page Config ---
-st.set_page_config(page_title="ChatBot", layout="wide")
-st.title("ChatBot")
+st.set_page_config(page_title="Benjamin v1", layout="wide")
+st.title("Benjamin")
 
 # --- CSS Styling ---
 st.markdown("""
