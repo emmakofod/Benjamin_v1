@@ -136,8 +136,8 @@ def pad_punctuation(s):
     return s.strip()
 
 # Load both parts
-loaded_seq2seq_model = models.load_model("model/new_benjamin_v1½.keras")
-vectorizer = models.load_model("model/new_vectorizer_v1½.keras")
+loaded_seq2seq_model = models.load_model("model/benjamin_v1.keras")
+vectorizer = models.load_model("model/vectorizer_v1.keras")
 
 # Extract encoder and decoder from the loaded model
 encoder = loaded_seq2seq_model.get_layer("encoder")  # Replace with your actual encoder layer name
